@@ -13,8 +13,6 @@ A React application built for the LinkPlus IT internship challenge. Demonstrates
 ### Bonus
 - **Sorting** — Sort the list by name, email, or company in ascending or descending order via a dropdown.
 - **Redux** — Full Redux Toolkit store manages all user state (list, search query, sort config, loading status).
-- **Edit** — Click "✏ Edit" on any user card to update their details via a modal.
-- **Delete** — Click "✕ Delete" on any user card to remove them (with confirmation).
 
 ## Tech Stack
 
