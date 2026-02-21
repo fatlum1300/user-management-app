@@ -14,6 +14,7 @@ A React application built for the LinkPlus IT internship challenge. Demonstrates
 - **Sorting** — Sort the list by name, email, or company in ascending or descending order via a dropdown.
 - **Redux** — Full Redux Toolkit store manages all user state (list, search query, sort config, loading status).
 
+
 ## Tech Stack
 
 | Tool | Purpose |
@@ -86,7 +87,6 @@ The Redux store (`usersSlice`) manages:
 - `fetchUsers` — Async thunk that calls the JSONPlaceholder API
 - `addUser` — Prepends a new user to the list with `isLocal: true`
 - `updateUser` — Updates an existing user by ID
-- `deleteUser` — Removes a user by ID
 - `setSearchQuery` — Updates search filter
 - `setSortConfig` — Updates sort field and direction
 
